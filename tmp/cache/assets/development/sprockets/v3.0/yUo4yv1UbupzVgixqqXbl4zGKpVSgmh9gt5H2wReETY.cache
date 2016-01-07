@@ -1,0 +1,12 @@
+I"(function() {
+  Handlebars.registerHelper("t", function(key) {
+    if (Spree.translations[key]) {
+      return Spree.translations[key];
+    } else {
+      console.error("No translation found for " + key + ".");
+      return key;
+    }
+  });
+
+}).call(this);
+:ET
