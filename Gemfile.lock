@@ -215,6 +215,8 @@ GEM
       rabl (>= 0.9.4.pre1, < 0.12.0)
       solidus_core (= 1.1.1)
       versioncake (~> 2.3.1)
+    solidus_asset_variant_options (1.0.0)
+      solidus (>= 1.0.0, < 1.2.0)
     solidus_auth_devise (1.2.3)
       deface (~> 1.0.0)
       devise (~> 3.5.1)
@@ -260,6 +262,8 @@ GEM
       jquery-rails
       solidus_api (= 1.1.1)
       solidus_core (= 1.1.1)
+    solidus_gateway (1.0.0)
+      solidus_core (>= 1.1.0.pre, < 1.2.0)
     solidus_sample (1.1.1)
       solidus_core (= 1.1.1)
     spring (1.6.1)
@@ -321,7 +325,9 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   solidus
+  solidus_asset_variant_options
   solidus_auth_devise
+  solidus_gateway
   spring
   sqlite3
   turbolinks

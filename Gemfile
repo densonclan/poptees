@@ -38,6 +38,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'solidus'
 gem 'solidus_auth_devise'
 gem 'handlebars_assets', '~> 0.22.0'
+gem "solidus_gateway"
+gem "solidus_asset_variant_options"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
